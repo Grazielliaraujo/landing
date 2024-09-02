@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Desenvolvimento Web</title>
+    <link rel="stylesheet" href="./style2.css">
+    <style>
+        /* Adicione o CSS básico aqui ou no arquivo separado */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: #282c34;
+            color: #fff;
+            padding: 1rem;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #61dafb;
+        }
+        main {
+            padding: 5rem 1rem 1rem;
+        }
+        .info-section {
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        .info-section h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid #61dafb;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .info-section p {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+        }
+        .info-section ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .info-section ul li {
+            margin: 1rem 0;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: #61dafb;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #21a1f1;
+        }
+        .testimonial {
+            background: #f4f4f4;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        .testimonial p {
+            margin: 0;
+        }
+        footer {
+            background: #282c34;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curso de Desenvolvimento Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre o Curso</a></li>
+                <li><a href="#modules">Módulos</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#more">Saiba Mais</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#about-us">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="info-section">
+            <h2>Sobre o Curso</h2>
+            <p>O Curso de Desenvolvimento Web é projetado para fornecer uma compreensão completa das tecnologias modernas da web. Desde HTML e CSS até JavaScript e frameworks, este curso cobre tudo o que você precisa para se tornar um desenvolvedor web completo.</p>
+            <p><strong>Duração:</strong> 12 semanas</p>
+            <p><strong>Pré-requisitos:</strong> Nenhum conhecimento prévio é necessário.</p>
+            <a href="./index3.html" class="cta-button">Inscreva-se Agora</a>
+        </section>
+
+        <section id="modules" class="info-section">
+            <h2>Módulos do Curso</h2>
+            <ul>
+                <li>
+                    <h3>1. Introdução ao HTML</h3>
+                    <p>Aprenda os fundamentos da estrutura de páginas web usando HTML.</p>
+                </li>
+                <li>
+                    <h3>2. Estilização com CSS</h3>
+                    <p>Descubra como estilizar suas páginas web com CSS para torná-las atraentes.</p>
+                </li>
+                <li>
+                    <h3>3. Programação com JavaScript</h3>
+                    <p>Adquira habilidades em JavaScript para adicionar interatividade às suas páginas.</p>
+                </li>
+                <li>
+                    <h3>4. Frameworks e Bibliotecas</h3>
+                    <p>Explore frameworks como Bootstrap e bibliotecas como jQuery para acelerar seu desenvolvimento.</p>
+                </li>
+                <li>
+                    <h3>5. Projeto Final</h3>
+                    <p>Construa um projeto final para demonstrar suas habilidades e conhecimentos adquiridos durante o curso.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="more" class="info-section">
+            <h2>Saiba Mais</h2>
+            <p>Nosso curso é ministrado por profissionais experientes do setor que oferecem uma abordagem prática e atualizada sobre as melhores práticas em desenvolvimento web. Incluímos projetos reais e estudos de caso para garantir que você tenha a experiência prática necessária para se destacar no mercado.</p>
+            <p>Além disso, oferecemos suporte contínuo e acesso a uma comunidade online para networking e troca de conhecimento.</p>
+        </section>
+
+        <section id="testimonials" class="info-section">
+            <h2>Depoimentos</h2>
+            <div class="testimonial">
+                <p><strong>João Silva</strong></p>
+                <p>"O curso foi essencial para minha carreira. A metodologia prática e os projetos reais me ajudaram a consolidar o que aprendi e a me destacar em entrevistas de emprego."</p>
+            </div>
+            <div class="testimonial">
+                <p><strong>Maria Oliveira</strong></p>
+                <p>"Os instrutores são extremamente capacitados e estão sempre disponíveis para tirar dúvidas. Eu recomendo fortemente este curso para quem quer entrar no mundo do desenvolvimento web."</p>
+            </div>
+        </section>
+
+        <section id="faq" class="info-section">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <h3>1. Qual é a carga horária do curso?</h3>
+                <p>A carga horária total é de aproximadamente 120 horas, distribuídas ao longo de 12 semanas.</p>
+            </div>
+            <div class="faq-item">
+                <h3>2. O curso oferece certificação?</h3>
+                <p>Sim, ao final do curso, você receberá um certificado de conclusão, que pode ser adicionado ao seu currículo e perfil profissional.</p>
+            </div>
+            <div class="faq-item">
+                <h3>3. Existem opções de pagamento parcelado?</h3>
+                <p>Sim, oferecemos opções de pagamento parcelado para tornar o curso mais acessível.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="info-section">
+            <h2>Contato</h2>
+            <p>Para mais informações sobre o curso, entre em contato conosco pelo e

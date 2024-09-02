@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição no Curso</title>
+    <link rel="index4.html" href="style2.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input, select, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .error {
+            color: red;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Inscreva-se no Curso</h1>
+        <form id="registration-form" action="submit_form.php" method="post">
+            <div class="error" id="form-error"></div>
+
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="name" required placeholder="Seu nome completo">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="sla@gmail.com">
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="55858493333">
+
+            <label for="course">Curso de Interesse:</label>
+            <select id="course" name="course" required>
+                <option value="" disabled selected>Selecione um curso</option>
+                <option value="web-development">Desenvolvimento Web</option>
+                <option value="data-science">Ciência de Dados</option>
+                <option value="graphic-design">Design Gráfico</option>
+            </select>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Digite sua mensagem (opcional)"></textarea>
+
+            <a href="./index4.html">
+                <button type="submit">Enviar Inscrição</button>
+            </a>
+                
+        </form>
+    </div>
+</body>
+</html>
